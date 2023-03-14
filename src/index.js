@@ -13,7 +13,7 @@ const cardRouter = require("./card/card.router");
 const categoriaRouter = require("./categoria/categoria.router");
 
 //Decarando a porta do servidor
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 //Função principal assíncrona
 async function main() {
