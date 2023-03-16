@@ -7,7 +7,7 @@ e criando a collection "/cardsaleatorios" caso não exista*/
 const databaseUrl =
   "mongodb+srv://admin:YzOCE9cR7TOWpyCV@cluster0.nxhs41w.mongodb.net/cardsaleatorios";
 
-//Função flecha para realizar a conaxão
+//Função flecha para realizar a conexão
 const conectandoDB = () => {
   return mongoose
     .connect(databaseUrl)
